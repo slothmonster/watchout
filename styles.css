@@ -2,4 +2,29 @@
 
 /* Note: an asteroid image is included in this repo. 
 Feel free to use it if you like. */
+html, body {
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+}
 
+.scoreboard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  padding: 2rem;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: black;
+}
