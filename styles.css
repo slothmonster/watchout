@@ -26,5 +26,7 @@ svg {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: black;
+  background-image: url(images/dojo.jpg);
+  background-size: cover;
+  background-position: center center;
 }
